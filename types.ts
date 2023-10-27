@@ -5,7 +5,7 @@ export type Mascot = {
 }
 
 export enum typeMascot {
-    "Perro" ,
-    "Gato",
-    "Serpiente"
+    "perro" ,
+    "gato",
+    "serpiente"
 }
