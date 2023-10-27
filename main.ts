@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 app
-    .get("/", (req, res) => {
+    .get("/api", (req, res) => {
     res.send("Bienvenido a la API-Mascotas");
     })
     .get("/api/mascotas", getMascot)
